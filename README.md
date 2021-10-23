@@ -32,8 +32,8 @@ python NAS_FUSE.py
 ### Results
 The confusion matrix below shows the distance matrix of 8 baseline tasks from MNIST, CIFAR-10 datasets.
 <p align="center">
-  <img src="images/fig1.jpg" width="350" title="Mean">
-  <img src="images/fig2.jpg" width="350" title="Sig">
+  <img src="images/fig1.jpg" height="350" title="Mean">
+  <img src="images/fig2.jpg" height="350" title="Sig">
 </p>
 
 The table below indicates the performance of the TA-NAS in comparison with state-of-art image classifiers on Quick, Draw! dataset.
