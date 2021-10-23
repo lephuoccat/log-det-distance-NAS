@@ -24,7 +24,7 @@ python train_task_cifar_repeat.py
 ```
 python log_det_distance.py
 ```
-Lastly, the FUSE algorithm is applied to find the suitable architecture for the incoming task:
+* Lastly, the FUSE algorithm is applied to find the suitable architecture for the incoming task:
 ```
 python NAS_FUSE.py
 ```
