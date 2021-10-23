@@ -30,7 +30,7 @@ python NAS_FUSE.py
 ```
 
 ### Results
-The confusion matrix below shows the distance matrix of 8 baseline tasks from MNIST, CIFAR-10 datasets.
+The confusion matrices below shows the mean (left) and standard deviation (right) of the distances between 8 baseline tasks from MNIST, CIFAR-10 datasets.
 <p align="center">
   <img src="images/fig1.jpg" height="350" title="Mean">
   <img src="images/fig2.jpg" height="350" title="Sig">
