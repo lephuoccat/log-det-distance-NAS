@@ -36,16 +36,29 @@ The confusion matrices below shows the mean (left) and standard deviation (right
   <img src="images/fig2.jpg" height="350" title="Sig">
 </p>
 
-The table below indicates the performance of the TA-NAS in comparison with state-of-art image classifiers on Quick, Draw! dataset.
-| Architecture | Error (%) | Paramameters (M) | GPU days |
+The table below indicates the comparison of the NAS performance with handdesigned classifiers and state-of-the-art methods on Task 3 in
+MNIST based on the discovered closest task, Task 7 
+| Architecture | Accuracy (%) | Paramameters (M) | GPU days |
 | :---         |    :---:  |     :---:        |  :---:   |
-| ResNet-18    | 1.42      |  11.44    | - |
-| ResNet-34    | 1.20      |  21.54    | - |
-| DenseNet-161 | 1.17      |  27.60    | - |
-| Random Search               | 1.33      |  2.55    | 4 |
-| FUSE w. standard space      | 1.21      |  2.89    | 2 |
-| FUSE w. task-aware space    | 1.18      |  2.72    | 2 |
+| VGG-16       | 99.55     |  14.72    | - |
+| ResNet-18    | 99.56     |  11.44    | - |
+| DenseNet-121 | 99.61     |  6.95     | - |
+| Random Search| 99.59     |  2.23     | 4 |
+| ENAS         | 97.77     |  4.60     | 4 |
+| DARTS        | 99.51     |  2.37     | 2 |
+| LD-NAS (ours)| 99.67     |  2.28     | 2 |
 
+The table below indicates the comparison of the NAS performance with handdesigned classifiers and state-of-the-art methods on Task 6 in
+CIFAR-10 based on the discovered closest task, Task 7. 
+| Architecture | Accuracy (%) | Paramameters (M) | GPU days |
+| :---         |    :---:  |     :---:        |  :---:   |
+| VGG-16       | 86.75     |  14.72    | - |
+| ResNet-18    | 86.93     |  11.44    | - |
+| DenseNet-121 | 88.12     |  6.95     | - |
+| Random Search| 88.55     |  3.65     | 5 |
+| ENAS         | 75.22     |  4.60     | 4 |
+| DARTS        | 90.11     |  3.12     | 2 |
+| LD-NAS (ours)| 90.87     |  3.02     | 2 |
 
 ## Authors
 
