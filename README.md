@@ -15,7 +15,7 @@ In this paper, we propose a neural architecture search framework based on a simi
 
 ### Executing program
 
-* First, we define tasks in MNIST and CIFAR-10 dataset and use the CNN to train on each task. The weights of the trained CNN is saved for each task.
+* First, we define tasks in MNIST and CIFAR-10 datasets and use the CNN to train on each task. The weights of the trained CNN is saved for each task.
 ```
 python train_task_mnist.py
 python train_task_cifar_repeat.py
