@@ -1,4 +1,4 @@
-# log-det-distance-NAS
+# Neural Architecture Search From Task Similarity Measure
 This is the source code for Neural Architecture Search From Task Similarity Measure (https://arxiv.org/pdf/2103.00241.pdf)
 
 ## Description
